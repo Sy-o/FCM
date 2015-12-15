@@ -1,0 +1,14 @@
+Common flags:
+  -a --accuracy=NUM         accuracy of the algorithm
+  -s --sourcefile=ITEM      file path for sorce data
+  -n --numberofclasses=INT  number of classes
+  -r --resultfile=ITEM      file path for result data
+  -m --metric=ITEM          metric for distance calculation (e - Euclidean, h
+                            - Hamming)
+  -c --columnsplitter=ITEM  column splitter in csv file
+     --ignoretitle          ignore title row in csv file
+     --ignorefirstcol       ignore first column in csv file
+     --ignorelastcol        ignore last column in csv file
+  -t --table=ITEM           generation of this table starts the algorithm
+  -? --help                 Display help message
+  -V --version              Print version information
